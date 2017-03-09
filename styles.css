@@ -4,7 +4,7 @@ body{
 
 }
 
-p{
+.typed-text p{
   color: lime;
   font-family: "Courier";
   font-size: 1em;
@@ -16,7 +16,7 @@ p{
 
 }
 
-p:nth-child(2){
+.typed-text p:nth-child(2){
   animation: type2 8s steps(60, end);
 }
 
@@ -40,4 +40,49 @@ p:nth-child(2){
 
 ::selection{
   background: black;
+}
+
+.static-text {
+  color: lime;
+  font-family: "Courier";
+  font-size: 1em;
+  margin: 10px 0 0 10px;
+
+
+}
+
+.static-text a:link {
+  text-decoration: none;
+  color: lime;
+  font-family: "Courier";
+  font-size: 1em;
+}
+
+.static-text a:hover {
+  text-decoration: underline;
+  color: lime;
+  font-family: "Courier";
+  font-size: 1em;
+}
+
+.static-text a:visited {
+  text-decoration: none;
+  color: lime;
+  font-family: "Courier";
+  font-size: 1em;
+}
+
+.static-text h2{
+  color: lime;
+  font-family: "Courier";
+  font-size: 1.5em;
+}
+
+.static-text li{
+  color: lime;
+  font-family: "Courier";
+  font-size: 1em;
+
+
+
 }
